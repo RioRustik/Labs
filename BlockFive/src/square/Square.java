@@ -13,9 +13,7 @@ public class Square {
         this.leftTopPoint = point;
         this.a = a;
     }
-    Square(int x, int y, int a) {
-        this(new Point(x, y), a);
-    }
+    Square(int x, int y, int a) {this(new Point(x, y), a);}
 
     public String toString(){
         return "Квадрат в точке " + leftTopPoint + " со стороной " + this.a;
