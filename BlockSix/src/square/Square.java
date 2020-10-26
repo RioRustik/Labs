@@ -1,7 +1,7 @@
 package square;
 
 public class Square {
-    Point leftTopPoint;
+    private Point leftTopPoint;
     private int a;
 
     Square(Point point, int a) {

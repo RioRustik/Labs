@@ -13,6 +13,9 @@ public class Lab {
         System.out.println(a);
         a.toLine();
 
+        Point r = new Point(3,-88);
+
+
 
     }
 

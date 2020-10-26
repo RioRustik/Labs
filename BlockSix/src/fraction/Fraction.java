@@ -1,7 +1,7 @@
 package fraction;
 
 public class Fraction {
-    private final int numerator, denominator;
+    private int numerator, denominator;
 
     Fraction(int numerator, int denominator){
         this.numerator = numerator;
