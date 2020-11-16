@@ -6,6 +6,10 @@ public class Student {
     private String name;
     private int[] rating;
 
+    public void setRating(int[] rating) {
+        this.rating = rating;
+    }
+
     public String getRating() {
         return Arrays.toString(rating);
     }

@@ -13,12 +13,6 @@ public class Line {
         this.b = new Point (x2,y2);;
     }
 
-/*    public void Length() {
-        double d1 = b.x - a.x;
-        double d2 = b.y - a.y;
-        d = (int) Math.sqrt(Math.pow(d1, 2) + Math.pow(d2, 2));
-        System.out.println(d);
-    }*/
     public int Distance(){
         int d;
         double d1 = b.x - a.x;

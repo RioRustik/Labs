@@ -5,6 +5,7 @@ public class Labs {
         Comment comment1 = new Comment("отличные задачи!",169);
         comment1.setAnswerComment(new Comment("совершенно согласен с этим комментарием!",5));
         comment1.answerComment.setAnswerComment(new Comment("что-то я ничего не понял",0));
+        comment1.answerComment.answerComment.setAnswerComment(new Comment("что-то я ничего не понял",89));
         System.out.println(comment1);
     }
 }
